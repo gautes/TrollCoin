@@ -1,0 +1,2 @@
+# TrollCoin
+Trollcoin virtual currency
