@@ -1,0 +1,72 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		9FB49CDC1E83F93B002BFC32 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		9FB49CD51E83F91D002BFC32 = {
+			isa = PBXGroup;
+			children = (
+				9FB49CDC1E83F93B002BFC32 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		9FB49CD61E83F91D002BFC32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 9FB49CD91E83F91D002BFC32 /* Build configuration list for PBXProject "Troll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FB49CD51E83F91D002BFC32;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		9FB49CDA1E83F91D002BFC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		9FB49CDB1E83F91D002BFC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FB49CD91E83F91D002BFC32 /* Build configuration list for PBXProject "Troll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB49CDA1E83F91D002BFC32 /* Debug */,
+				9FB49CDB1E83F91D002BFC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FB49CD61E83F91D002BFC32 /* Project object */;
+}
