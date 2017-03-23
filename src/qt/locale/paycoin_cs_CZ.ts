@@ -1029,8 +1029,8 @@ Adresa: %4
         <translation>Možnosti:</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>PID soubor (výchozí: paycoind.pid)</translation>
+        <source>Specify pid file (default: TrollCoind.pid)</source>
+        <translation>PID soubor (výchozí: TrollCoind.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>

@@ -1,9 +1,9 @@
 /*
- * Qt4 paycoin GUI.
+ * Qt4 TrollCoin GUI.
  *
  * W.J. van der Laan 2011-2012
  * The Bitcoin Developers 2011-2012
- * The Paycoin Developers 2011-2013
+ * The TrollCoin Developers 2011-2013
  */
 #include "bitcoingui.h"
 #include "transactiontablemodel.h"
@@ -74,9 +74,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     spinnerFrame(0)
 {
     resize(850, 550);
-    setWindowTitle(tr("Paycoin") + " - " + tr("Wallet"));
+    setWindowTitle(tr("TrollCoin") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
-    setWindowIcon(QIcon(":icons/paycoin"));
+    setWindowIcon(QIcon(":icons/TrollCoin"));
 #else
     setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
@@ -230,7 +230,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(receiveCoinsAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send coins"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a Paycoin address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a TrollCoin address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -266,17 +266,17 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/paycoin"), tr("&About Paycoin"), this);
-    aboutAction->setToolTip(tr("Show information about Paycoin"));
+    aboutAction = new QAction(QIcon(":/icons/TrollCoin"), tr("&About TrollCoin"), this);
+    aboutAction->setToolTip(tr("Show information about TrollCoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for Paycoin"));
+    optionsAction->setToolTip(tr("Modify configuration options for TrollCoin"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
-    toggleHideAction = new QAction(QIcon(":/icons/paycoin"), tr("Show/Hide &Paycoin"), this);
-    toggleHideAction->setToolTip(tr("Show or hide the Paycoin window"));
+    toggleHideAction = new QAction(QIcon(":/icons/TrollCoin"), tr("Show/Hide &TrollCoin"), this);
+    toggleHideAction->setToolTip(tr("Show or hide the TrollCoin window"));
     exportAction = new QAction(QIcon(":/icons/export"), tr("&Export..."), this);
     exportAction->setToolTip(tr("Export the data in the current tab to a file"));
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet..."), this);
@@ -292,7 +292,7 @@ void BitcoinGUI::createActions()
     openRPCConsoleAction = new QAction(QIcon(":/icons/debugwindow"), tr("&Debug window"), this);
     openRPCConsoleAction->setToolTip(tr("Open debugging and diagnostic console"));
     editConfigAction = new QAction(QIcon(":/icons/options"), tr("&Edit config..."), this);
-    editConfigAction->setToolTip(tr("Edit the paycoin.conf file in the default text editor"));
+    editConfigAction->setToolTip(tr("Edit the TrollCoin.conf file in the default text editor"));
 
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
     connect(optionsAction, SIGNAL(triggered()), this, SLOT(optionsClicked()));
@@ -371,9 +371,9 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
             QString title_testnet = windowTitle() + QString(" ") + tr("[testnet]");
             setWindowTitle(title_testnet);
 #ifndef Q_OS_MAC
-            setWindowIcon(QIcon(":icons/paycoin_testnet"));
+            setWindowIcon(QIcon(":icons/TrollCoin_testnet"));
 #else
-            MacDockIconHandler::instance()->setIcon(QIcon(":icons/paycoin_testnet"));
+            MacDockIconHandler::instance()->setIcon(QIcon(":icons/TrollCoin_testnet"));
 #endif
             if(trayIcon)
             {
@@ -434,7 +434,7 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("Paycoin client"));
+    trayIcon->setToolTip(tr("TrollCoin client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -473,7 +473,7 @@ void BitcoinGUI::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
 {
     if(reason == QSystemTrayIcon::Trigger)
     {
-        // Click on system tray icon triggers "show/hide Paycoin"
+        // Click on system tray icon triggers "show/hide TrollCoin"
         toggleHideAction->trigger();
     }
 }
@@ -507,7 +507,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Paycoin network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to TrollCoin network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)

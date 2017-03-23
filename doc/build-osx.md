@@ -1,4 +1,4 @@
-Copyright (c) 2012-2013 Paycoin Developers
+Copyright (c) 2012-2013 TrollCoin Developers
 Copyright (c) 2009-2012 Bitcoin Developers
 Distributed under the MIT software license, see the accompanying file
 COPYING or http://www.opensource.org/licenses/mit-license.php.  This
@@ -13,11 +13,11 @@ Mac OS X bitcoind build instructions
 Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
-Modified for Paycoin by Jeff Larkin <jefflarkin@gmail.com>
-Modified for Paycoin by Ben Rossi <ben@rossinet.com>
+Modified for TrollCoin by Jeff Larkin <jefflarkin@gmail.com>
+Modified for TrollCoin by Ben Rossi <ben@rossinet.com>
 
 
-See readme-qt.md for instructions on building the Paycoin community version of Paycoin QT, the
+See readme-qt.md for instructions on building the TrollCoin community version of TrollCoin QT, the
 graphical user interface.
 
 Tested on 10.5 and 10.6 intel.  PPC is not supported because it's big-endian.
@@ -32,7 +32,7 @@ but you can get the current version from https://developer.apple.com
 
 1.  Clone the github tree to get the source code:
 
-		git clone git@github.com/PaycoinFoundation/paycoin.git paycoin
+		git clone git@github.com/TrollCoinFoundation/TrollCoin.git TrollCoin
 
 2.  Download and install MacPorts from http://www.macports.org/
 
@@ -49,7 +49,7 @@ but you can get the current version from https://developer.apple.com
 
 4.  Now you should be able to build bitcoind:
 
-		cd paycoin/src
+		cd TrollCoin/src
 		make -f makefile.osx
 
 
@@ -60,10 +60,10 @@ To build 64-bit binaries:
 
 Run:
 
-	./paycoind --help  # for a list of command-line options.
+	./TrollCoind --help  # for a list of command-line options.
 Run:
 
-	./paycoind -daemon # to start the bitcoin daemon.
+	./TrollCoind -daemon # to start the bitcoin daemon.
 Run:
 
-	./paycoind help # When the daemon is running, to get a list of RPC commands
+	./TrollCoind help # When the daemon is running, to get a list of RPC commands

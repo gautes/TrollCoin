@@ -3,12 +3,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Paycoin</source>
-        <translation>Om Paycoin</translation>
+        <source>About TrollCoin</source>
+        <translation>Om TrollCoin</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Paycoin&lt;/b&gt; versjon</translation>
+        <source>&lt;b&gt;TrollCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;TrollCoin&lt;/b&gt; versjon</translation>
     </message>
     </context>
 <context>
@@ -18,8 +18,8 @@
         <translation>Adressebok</translation>
     </message>
     <message>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine Paycoin-adresser for å motta betalinger. Du kan gi en adresse til hver enkelt som skal betale deg, slik at du kan holde orden på hvem som har betalt.</translation>
+        <source>These are your TrollCoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine TrollCoin-adresser for å motta betalinger. Du kan gi en adresse til hver enkelt som skal betale deg, slik at du kan holde orden på hvem som har betalt.</translation>
     </message>
     <message>
         <source>Double-click to edit address or label</source>
@@ -180,14 +180,14 @@
         <translation>Skriv inn det gamle og det nye passordet til lommeboken.</translation>
     </message>
     <message>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PAYCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TrollCoinS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>ADVARSEL: Hvis du krypterer lommeboken og mister passordet, så vil du &lt;b&gt;MISTE ALLE DINE PAYCOINS&lt;/b&gt;!
+        <translation>ADVARSEL: Hvis du krypterer lommeboken og mister passordet, så vil du &lt;b&gt;MISTE ALLE DINE TrollCoinS&lt;/b&gt;!
 Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
-        <translation>Paycoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine paycoins fra å bli stjålet av skadevare som infiserer datamaskinen din.</translation>
+        <source>TrollCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TrollCoins from being stolen by malware infecting your computer.</source>
+        <translation>TrollCoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine TrollCoins fra å bli stjålet av skadevare som infiserer datamaskinen din.</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
@@ -250,7 +250,7 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <source>&amp;Receive coins</source>
-        <translation>&amp;Motta paycoins</translation>
+        <translation>&amp;Motta TrollCoins</translation>
     </message>
     <message>
         <source>Show the list of addresses for receiving payments</source>
@@ -258,7 +258,7 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <source>&amp;Send coins</source>
-        <translation>&amp;Send paycoins</translation>
+        <translation>&amp;Send TrollCoins</translation>
     </message>
     <message>
         <source>Prove you control an address</source>
@@ -273,8 +273,8 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
         <translation>Avslutt applikasjonen</translation>
     </message>
     <message>
-        <source>Show information about Paycoin</source>
-        <translation>Vis informasjon om Paycoin</translation>
+        <source>Show information about TrollCoin</source>
+        <translation>Vis informasjon om TrollCoin</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -357,32 +357,32 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
         <translation>Denne transaksjonen er over størrelsesgrensen. Du kan sende den med et gebyr på %1. Vil du betale gebyret?</translation>
     </message>
     <message>
-        <source>Paycoin Wallet</source>
-        <translation>Paycoin Lommebok</translation>
+        <source>TrollCoin Wallet</source>
+        <translation>TrollCoin Lommebok</translation>
     </message>
     <message>
-        <source>Send coins to a Paycoin address</source>
-        <translation>Send mynter til en Paycoin-adresse</translation>
+        <source>Send coins to a TrollCoin address</source>
+        <translation>Send mynter til en TrollCoin-adresse</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signer &amp;melding...</translation>
     </message>
     <message>
-        <source>&amp;About Paycoin</source>
-        <translation>&amp;Om Paycoin</translation>
+        <source>&amp;About TrollCoin</source>
+        <translation>&amp;Om TrollCoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Paycoin</source>
-        <translation>Endre oppsett for Paycoin</translation>
+        <source>Modify configuration options for TrollCoin</source>
+        <translation>Endre oppsett for TrollCoin</translation>
     </message>
     <message>
-        <source>Show/Hide &amp;Paycoin</source>
-        <translation>Vis/Skjul &amp;Paycoin</translation>
+        <source>Show/Hide &amp;TrollCoin</source>
+        <translation>Vis/Skjul &amp;TrollCoin</translation>
     </message>
     <message>
-        <source>Show or hide the Paycoin window</source>
-        <translation>Vis eller skjul Paycoin-vinduet</translation>
+        <source>Show or hide the TrollCoin window</source>
+        <translation>Vis eller skjul TrollCoin-vinduet</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -397,12 +397,12 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
         <translation>&amp;Endre Passord...</translation>
     </message>
     <message>
-        <source>Paycoin client</source>
-        <translation>Paycoin klient</translation>
+        <source>TrollCoin client</source>
+        <translation>TrollCoin klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Paycoin network</source>
-        <translation><numerusform>%n aktiv forbindelse til Paycoin-nettverket</numerusform><numerusform>%n aktive forbindelser til Paycoin-nettverket</numerusform></translation>
+        <source>%n active connection(s) to TrollCoin network</source>
+        <translation><numerusform>%n aktiv forbindelse til TrollCoin-nettverket</numerusform><numerusform>%n aktive forbindelser til TrollCoin-nettverket</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -497,8 +497,8 @@ Adresse: %4
         <translation>Det oppsto en feil under lagring av lommebokdata til den nye lokasjonen.</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
-        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og Paycoin må derfor avslutte.</translation>
+        <source>A fatal error occurred. TrollCoin can no longer continue safely and will quit.</source>
+        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og TrollCoin må derfor avslutte.</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@ Adresse: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Velg standard underenhet som skal vises i grensesnittet og ved sending av paycoins</translation>
+        <translation>Velg standard underenhet som skal vises i grensesnittet og ved sending av TrollCoins</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
         <translation>&amp;Vis adresser i transaksjonslisten</translation>
     </message>
     <message>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
-        <translation>Om Paycoin-adresser skal vises i transaksjonslisten eller ikke.</translation>
+        <source>Whether to show TrollCoin addresses in the transaction list</source>
+        <translation>Om TrollCoin-adresser skal vises i transaksjonslisten eller ikke.</translation>
     </message>
     <message>
         <source>Display coin control features (experts only!)</source>
@@ -762,8 +762,8 @@ Adresse: %4
         <translation>Den oppgitte adressen "%1" er allerede i adresseboken.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Paycoin address.</source>
-        <translation>Den oppgitte adressen "%1" er ikke en gyldig Paycoin-adresse.</translation>
+        <source>The entered address "%1" is not a valid TrollCoin address.</source>
+        <translation>Den oppgitte adressen "%1" er ikke en gyldig TrollCoin-adresse.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1130,8 +1130,8 @@ Adresse: %4
         <translation>Tøm konsoll</translation>
     </message>
     <message>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Velkommen til Paycoin sin RPC-konsoll.&lt;br&gt;Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.&lt;br&gt;Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
+        <source>Welcome to the TrollCoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Velkommen til TrollCoin sin RPC-konsoll.&lt;br&gt;Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.&lt;br&gt;Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
     </message>
     </context>
 <context>
@@ -1274,7 +1274,7 @@ Adresse: %4
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Bekreft sending av paycoins</translation>
+        <translation>Bekreft sending av TrollCoins</translation>
     </message>
     <message>
         <source>Are you sure you want to send %1?</source>
@@ -1289,8 +1289,8 @@ Adresse: %4
         <translation>Beløpet som må betales må være minimum en hundredel (0.01).</translation>
     </message>
     <message>
-        <source>Warning: Invalid Paycoin address</source>
-        <translation>Advarsel: Ugyldig Paycoin-adresse</translation>
+        <source>Warning: Invalid TrollCoin address</source>
+        <translation>Advarsel: Ugyldig TrollCoin-adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1301,8 +1301,8 @@ Adresse: %4
         <translation>(ingen merkelapp)</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Angi en Paycoin-adresse</translation>
+        <source>Enter a TrollCoin address</source>
+        <translation>Angi en TrollCoin-adresse</translation>
     </message>
     </context>
 <context>
@@ -1332,8 +1332,8 @@ Adresse: %4
         <translation>Adressen å sende betalingen til</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address (e.g. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Skriv inn en Paycoin-addresse (f.eks. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a TrollCoin address (e.g. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Skriv inn en TrollCoin-addresse (f.eks. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <source>Choose address from address book</source>
@@ -1403,8 +1403,8 @@ Adresse: %4
         <translation>Kopier den nåværende signaturen til systemets utklippstavle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Paycoin address</source>
-        <translation>Signer meldingen for å bevise at du eier denne Paycoin-adressen</translation>
+        <source>Sign the message to prove you own this TrollCoin address</source>
+        <translation>Signer meldingen for å bevise at du eier denne TrollCoin-adressen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1431,8 +1431,8 @@ Adresse: %4
         <translation>Adressen meldingen var signert med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Paycoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified TrollCoin address</source>
+        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte TrollCoin-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1451,8 +1451,8 @@ Adresse: %4
         <translation>Angi signaturen til meldingen</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Angi en Paycoin-adresse</translation>
+        <source>Enter a TrollCoin address</source>
+        <translation>Angi en TrollCoin-adresse</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1506,8 +1506,8 @@ Adresse: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>The Paycoin developers</source>
-        <translation>Paycoin utviklerne</translation>
+        <source>The TrollCoin developers</source>
+        <translation>TrollCoin utviklerne</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -1887,8 +1887,8 @@ Adresse: %4
         <translation>Bruk:</translation>
     </message>
     <message>
-        <source>Paycoin version</source>
-        <translation>Paycoin versjon</translation>
+        <source>TrollCoin version</source>
+        <translation>TrollCoin versjon</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -1903,12 +1903,12 @@ Adresse: %4
         <translation>Innstillinger:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: paycoin.conf)</source>
-        <translation>Angi konfigurasjonsfil (standardverdi: paycoin.conf)</translation>
+        <source>Specify configuration file (default: TrollCoin.conf)</source>
+        <translation>Angi konfigurasjonsfil (standardverdi: TrollCoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Angi pid-fil (standardverdi: paycoind.pid)</translation>
+        <source>Specify pid file (default: TrollCoind.pid)</source>
+        <translation>Angi pid-fil (standardverdi: TrollCoind.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>
@@ -2059,24 +2059,24 @@ Adresse: %4
         <translation>Akseptable krypteringsmetoder (standardverdi: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
-        <translation>Ute av stand til å låse datamappen %s. Paycoin kjører sannsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s.  TrollCoin is probably already running.</source>
+        <translation>Ute av stand til å låse datamappen %s. TrollCoin kjører sannsynligvis allerede.</translation>
     </message>
     <message>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>TrollCoin</source>
+        <translation>TrollCoin</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
-        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av Paycoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of TrollCoin</source>
+        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av TrollCoin</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
-        <translation>Lommeboken måtte skrives om: start Paycoin på nytt for å fullføre</translation>
+        <source>Wallet needed to be rewritten: restart TrollCoin to complete</source>
+        <translation>Lommeboken måtte skrives om: start TrollCoin på nytt for å fullføre</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
-        <translation>Advarsel: Vennligst sjekk at datamaskinens dato og tid er korrekt. Hvis klokken din er feil vil ikke Paycoin fungere skikkelig.</translation>
+        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong TrollCoin will not work properly.</source>
+        <translation>Advarsel: Vennligst sjekk at datamaskinens dato og tid er korrekt. Hvis klokken din er feil vil ikke TrollCoin fungere skikkelig.</translation>
     </message>
     <message>
         <source>Loading addresses...</source>

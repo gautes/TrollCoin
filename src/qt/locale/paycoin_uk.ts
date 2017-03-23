@@ -1000,8 +1000,8 @@ Address: %4
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Вкажіть pid-файл (за промовчуванням: paycoind.pid)
+        <source>Specify pid file (default: TrollCoind.pid)</source>
+        <translation>Вкажіть pid-файл (за промовчуванням: TrollCoind.pid)
 </translation>
     </message>
     <message>

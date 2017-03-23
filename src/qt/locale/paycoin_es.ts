@@ -931,8 +931,8 @@ Dirección: %4</translation>
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Especifica archivo pid (predeterminado: Paycoin.pid)
+        <source>Specify pid file (default: TrollCoind.pid)</source>
+        <translation>Especifica archivo pid (predeterminado: TrollCoin.pid)
 </translation>
     </message>
     <message>

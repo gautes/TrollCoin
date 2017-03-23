@@ -3,12 +3,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Paycoin</source>
-        <translation>Om Paycoin</translation>
+        <source>About TrollCoin</source>
+        <translation>Om TrollCoin</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Paycoin&lt;/b&gt; Version</translation>
+        <source>&lt;b&gt;TrollCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;TrollCoin&lt;/b&gt; Version</translation>
     </message>
     </context>
 <context>
@@ -18,8 +18,8 @@
         <translation>Adressebog</translation>
     </message>
     <message>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Det her er dine Paycoin adresser for at modtage betalinger. Du kan have lyst til at give forskellige adresser, til hver sender så du kan holde styr på hvem der betaler dig.</translation>
+        <source>These are your TrollCoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Det her er dine TrollCoin adresser for at modtage betalinger. Du kan have lyst til at give forskellige adresser, til hver sender så du kan holde styr på hvem der betaler dig.</translation>
     </message>
     <message>
         <source>Double-click to edit address or label</source>
@@ -952,8 +952,8 @@ Adresse: %4
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Angiv pid-fil (default: paycoind.pid)
+        <source>Specify pid file (default: TrollCoind.pid)</source>
+        <translation>Angiv pid-fil (default: TrollCoind.pid)
 </translation>
     </message>
     <message>

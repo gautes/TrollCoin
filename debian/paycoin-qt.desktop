@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Paycoin
-Comment=Paycoin P2P Cryptocurrency
-Comment[fr]=Paycoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Paycoin, eşten eşe kriptografik sanal para birimi
-Exec=/usr/bin/paycoin-qt %u
+Name=TrollCoin
+Comment=TrollCoin P2P Cryptocurrency
+Comment[fr]=TrollCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TrollCoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/TrollCoin-qt %u
 Terminal=false
 Type=Application
-Icon=/usr/share/pixmaps/paycoin128.png
-MimeType=x-scheme-handler/paycoin;
+Icon=/usr/share/pixmaps/TrollCoin128.png
+MimeType=x-scheme-handler/TrollCoin;
 Categories=Office;
